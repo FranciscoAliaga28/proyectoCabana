@@ -1,0 +1,124 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+body{
+
+    background-image: linear-gradient(rgb(175, 143, 143), rgb(163, 120, 120))
+}
+
+
+header h1{
+    text-align: center;
+    color: rgb(59, 54, 49);
+    font-size: 50px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    
+}
+.ubicacion{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+        
+
+
+.video{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.galeria{
+    display: flex ;
+    justify-content: space-between;
+    margin: 15px 0
+}
+.galeria img{
+    max-width: 33%
+}
+
+
+
+.menu{
+   display: flex;
+   justify-content: center;
+   background-color: rgb(107, 94, 77);
+   margin: 10px;
+   padding: 10px ;
+}
+
+.menu ul li {
+    list-style-type: none;
+    display: inline-block;
+    color: rgb(197, 169, 135) ;
+    font-size: 25px;
+    margin: 5px;
+    position: relative;
+}
+.menu ul li a{
+    display: flex ;
+    
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(197, 169, 135) ;
+}
+
+
+.menu ul li a:hover,
+.menu ul li:hover{
+    color: rgb(114, 97, 76) ;
+    font-weight: bold ;
+}
+
+
+
+.sub-menu{
+    background-color: rgb(114, 97, 76);
+    padding: 10px;
+}
+
+.menu ul ul {
+    display: none;
+    position: absolute;
+}
+
+.menu ul li:hover > ul{
+    display: block;
+}
+
+
+main h2{
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+}
+main p{
+    font-size: 30px;
+    text-align: center;
+}
+
+main .parrafo-dos{
+    margin-top: 20px ;
+}
+
+
+
+
+
+footer{
+    margin-top: 20px;
+}
+
+footer h3, h4{
+    margin: 20px;
+    text-align: center;
+}
